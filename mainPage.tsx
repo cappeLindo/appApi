@@ -11,9 +11,7 @@ export function MainPage() {
         });
     }
 
-    useEffect(() => {
-        listarFazendas();
-    }, []);
+    useEffect(() => {listarFazendas();}, []);
 
     return (
         <ScrollView>
